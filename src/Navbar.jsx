@@ -11,16 +11,21 @@ const Navbar = () => {
 };
 
 const styles = {
-  nav: {
-    backgroundColor: '#222',
-    padding: '24px 48px',
-    display: 'flex',
-    gap: '40px',
-    fontSize: '24px',
-    marginTop: '20px',
-    borderRadius: '12px',
-    justifyContent: 'center',
-  },
+nav: {
+  backgroundColor: '#222',
+  padding: '16px 32px',
+  display: 'flex',
+  gap: '40px',
+  fontSize: '24px',
+  top: 0,
+  left: 0,
+  right: 0,
+  height: '64px',
+  position: 'fixed',
+  zIndex: 1000,
+  borderRadius: '0 0 12px 12px',
+  justifyContent: 'center',
+},
   link: {
     color: '#fff',
     textDecoration: 'none',

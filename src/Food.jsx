@@ -2,11 +2,11 @@ import React from 'react';
 import CardGrid from './CardGrid';
 
 const foodColumns = [
-  ['Pizza', 'Burger', 'Falafel'],
-  ['Sushi', 'Ramen', 'Tempura'],
-  ['Tacos', 'Burrito', 'Enchilada'],
-  ['Pasta', 'Lasagna', 'Gnocchi'],
-  ['Croissant', 'Baguette', 'Quiche'],
+  ['Pizza'], ['Burger'], ['Falafel'],
+  ['Sushi'], ['Ramen'], ['Tempura'],
+  ['Tacos'], ['Burrito'], ['Enchilada'],
+  ['Pasta'], ['Lasagna'], ['Gnocchi'],
+  ['Croissant'], ['Baguette'], ['Quiche']
 ];
 
 export default function Food() {
