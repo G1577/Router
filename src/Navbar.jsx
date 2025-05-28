@@ -11,21 +11,21 @@ const Navbar = () => {
 };
 
 const styles = {
-nav: {
-  backgroundColor: '#222',
-  padding: '16px 32px',
-  display: 'flex',
-  gap: '40px',
-  fontSize: '24px',
-  top: 0,
-  left: 0,
-  right: 0,
-  height: '64px',
-  position: 'fixed',
-  zIndex: 1000,
-  borderRadius: '0 0 12px 12px',
-  justifyContent: 'center',
-},
+  nav: {
+    backgroundColor: '#222',
+    padding: '0 32px',
+    display: 'flex',
+    gap: '40px',
+    height: '64px',
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 1000,
+    borderRadius: '0 0 12px 12px',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   link: {
     color: '#fff',
     textDecoration: 'none',
